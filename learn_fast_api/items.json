@@ -1,0 +1,21 @@
+{
+    "1": {
+        "name": "Pen",
+        "price": 2.0,
+        "tags": []
+    },
+    "2": {
+        "name": "Mac",
+        "price": 1000.0,
+        "tags": [
+            "Laptop"
+        ]
+    },
+    "3": {
+        "name": "Bottle",
+        "price": 2.0,
+        "tags": [
+            "string"
+        ]
+    }
+}
