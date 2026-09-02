@@ -17,5 +17,10 @@
         "tags": [
             "string"
         ]
+    },
+    "4": {
+        "name": "Laptop",
+        "price": 300.0,
+        "tags": []
     }
 }
