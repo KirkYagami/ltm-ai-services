@@ -1,0 +1,31 @@
+{
+  "showTitle": true,
+  "maxLevel": "6",
+  "displayHeader": true,
+  "displayFooter": true,
+  "headerTemplate": "<div style=\"width:100%;font-family:'Segoe UI',system-ui,sans-serif;box-sizing:border-box;\">\n  <div style=\"padding:10px 28px 8px;\">\n    <span class=\"title\" style=\"font-size:10px;font-weight:500;color:#555;letter-spacing:0.03em;\"></span>\n  </div>\n  <hr style=\"border:none;border-top:2px solid;border-image:linear-gradient(to right,#6C63FF,#00C9A7,#6C63FF) 1;margin:0 28px;\"/>\n</div>",
+  "footerTemplate": "<div style=\"width:100%;font-family:'Segoe UI',system-ui,sans-serif;box-sizing:border-box;\">\n  <hr style=\"border:none;border-top:2px solid;border-image:linear-gradient(to right,#00C9A7,#6C63FF,#00C9A7) 1;margin:0 28px;\"/>\n  <div style=\"padding:8px 28px 10px;display:flex;align-items:center;justify-content:space-between;\">\n    <a href=\"https://www.linkedin.com/in/-nikhil/\" style=\"font-size:10px;font-weight:500;color:#555;letter-spacing:0.02em;text-decoration:none;\">Nikhil Sharma</a>\n    <span style=\"font-size:9px;color:#aaa;letter-spacing:0.06em;font-variant-numeric:tabular-nums;\">Page <span class=\"pageNumber\" style=\"font-weight:600;color:#666;\"></span></span>\n  </div>\n</div>",
+  "printBackground": false,
+  "generateTaggedPDF": false,
+  "displayMetadata": false,
+  "debug": false,
+  "isTimestamp": false,
+  "enabledCss": true,
+  "concurrency": "5",
+  "version": "2",
+  "prevConfig": {
+    "pageSize": "A4",
+    "marginType": "1",
+    "showTitle": false,
+    "open": true,
+    "scale": 63,
+    "landscape": false,
+    "marginTop": "10",
+    "marginBottom": "10",
+    "marginLeft": "10",
+    "marginRight": "10",
+    "displayHeader": true,
+    "displayFooter": false,
+    "cssSnippet": "0"
+  }
+}

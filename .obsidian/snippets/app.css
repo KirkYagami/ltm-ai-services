@@ -1,0 +1,240 @@
+/* Override Obsidian's default font variables */
+body {
+    --font-text: 'Trebuchet MS',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --font-bold: 'Trebuchet MS', 'Courier New', monospace !important;
+}
+
+.theme-dark,
+.theme-light {
+    --font-bold: 'Trebuchet MS', 'Courier New', monospace !important;
+}
+
+/* Target ALL possible bold selectors */
+strong,
+b,
+.cm-strong,
+.cm-em.cm-strong,
+.markdown-rendered strong,
+.markdown-rendered b,
+.markdown-preview-view strong,
+.markdown-preview-view b,
+.markdown-source-view strong,
+.markdown-source-view b,
+.markdown-source-view.mod-cm6 .cm-strong,
+.HyperMD-strong,
+.cm-formatting-strong,
+div:not(.CodeMirror-code) > strong,
+div:not(.CodeMirror-code) > b {
+    font-family: 'Trebuchet MS', 'Courier New', monospace !important;
+    font-weight: bold !important;
+}
+
+/* Target CodeMirror 6 (newer Obsidian versions) */
+.cm-line strong,
+.cm-line b,
+.cm-content strong,
+.cm-content b {
+    font-family: 'Trebuchet MS', 'Courier New', monospace !important;
+    font-weight: bold !important;
+}
+
+/* Target Live Preview mode specifically */
+.markdown-source-view.mod-cm6 .cm-strong,
+.markdown-source-view.mod-cm6 strong,
+.markdown-source-view.mod-cm6 .cm-line strong,
+.is-live-preview .cm-strong,
+.is-live-preview strong,
+.cm-editor .cm-strong,
+.cm-scroller .cm-strong {
+    font-family: 'Trebuchet MS', 'Courier New', monospace !important;
+    font-weight: bold !important;
+}
+
+/* Target the actual strong formatting in CodeMirror */
+.cm-formatting-strong + span,
+span.cm-strong {
+    font-family: 'Trebuchet MS', 'Courier New', monospace !important;
+}
+
+/* Target every possible span with strong styling */
+.markdown-source-view.mod-cm6 span[class*="strong"] {
+    font-family: 'Trebuchet MS', 'Courier New', monospace !important;
+}
+
+/* Target reading mode specifically */
+.markdown-reading-view strong,
+.markdown-reading-view b {
+    font-family: 'Trebuchet MS', 'Courier New', monospace !important;
+    font-weight: bold !important;
+}
+
+.view-header-title { font-family: Courier New; }
+
+/* change header font in editing view */
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+    font-family: 'Courier New' !important;
+}
+
+/* change header font in reading view */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+    font-family: 'Courier New' !important;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Folder & File Icons */
+.nav-folder-children .nav-file-title-content:first-child::before {
+    content: "\e924  ";
+    font-family: 'IcoMoon-Free';
+}
+.nav-folder-children .nav-folder-title-content::before {
+    content: '\e930  ';
+    font-family: 'IcoMoon-Free';
+}
+
+.nav-folder-children .nav-file-title-content:first-child::before { content: '🗒 '; }
+.nav-folder-children .nav-folder-title-content::before { content: '📂 '; }
+
+
+.mermaid svg {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Keep an entire mermaid diagram together on screen too, so live preview
+   scrolling doesn't visually slice it (harmless outside of print). */
+.mermaid {
+    break-inside: avoid;
+}
+
+/* ── PDF Export ── */
+@media print {
+
+    body {
+    --font-text: 'Trebuchet MS',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --font-bold: 'Trebuchet MS', 'Courier New', monospace !important;
+}
+
+
+    /* Page margins — sized to clear plugin header & footer */
+    @page {
+        margin-top: 0.6in;
+        margin-bottom: 0.75in;
+        margin-left: 0.5in;
+        margin-right: 0.5in;
+    }
+
+    /* Kill ligatures everywhere — fixes garbled copy-paste from PDF */
+    * {
+        font-variant-ligatures: none !important;
+        font-feature-settings: "liga" 0, "calt" 0 !important;
+    }
+
+    /* Extra ligature fix specifically for code */
+    pre code,
+    code {
+        font-variant-ligatures: none !important;
+        font-feature-settings: "liga" 0, "calt" 0 !important;
+        text-rendering: geometricPrecision;
+    }
+
+    /* Preserve code indentation on print. Without this, leading
+       whitespace in code blocks can collapse during export, which is
+       fatal for Python specifically since indentation is syntactic —
+       collapsed indentation makes the printed code invalid/unreadable. */
+    pre, pre code, code {
+        white-space: pre-wrap !important;
+        tab-size: 4;
+    }
+
+    /* The active theme's own @media print block (Blue Topaz, theme.css)
+       sets `pre, blockquote { page-break-inside: avoid }` unconditionally.
+       Most code blocks in this document run well over one page; "avoid"
+       on a block that can never fit on a single page still pushes the
+       whole block (and its heading, via the theme's own avoid-after rule
+       on h2-h6) to the top of the next page before giving up and
+       splitting it anyway -- leaving the remainder of the current page
+       blank for nothing. This explicitly overrides the theme's rule
+       (snippets normally win on cascade order, but !important here makes
+       it unconditional) so long code blocks break naturally instead. */
+    pre {
+        page-break-inside: auto !important;
+        break-inside: auto !important;
+    }
+
+    /* Keep headings attached to the content below them, AND keep each
+       heading's own text from splitting across a page boundary (without
+       break-inside: avoid here, a heading that wraps to 2 lines right at
+       a page edge can leave its last word stranded on the next page,
+       still styled as a heading -- looks like a stray extra section). */
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+        page-break-inside: avoid;
+        break-after: avoid;
+        break-inside: avoid;
+        orphans: 3;
+        widows: 3;
+    }
+
+    /* Explicit page-break marker, inserted in the markdown as
+       <div class="page-break"></div> immediately before each real
+       question heading. Deliberately NOT tied to the h2 tag itself --
+       matching h2 generically is fragile (fires on any h2 anywhere,
+       including accidental ones from markdown-rendering quirks). */
+    .page-break {
+        break-before: page;
+        page-break-before: always;
+        height: 0;
+        margin: 0;
+        border: none;
+    }
+
+    /* Keep table rows together */
+    tr {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* Keep blockquotes and callouts together */
+    blockquote,
+    .callout {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* Keep mermaid diagrams whole — this is what was missing.
+       Without it, a flowchart can be sliced mid-diagram at a page
+       boundary (broken arrows, orphaned nodes). If a diagram is taller
+       than one page, the whole page-break-inside:avoid block will just
+       flow to the next page rather than splitting. */
+    .mermaid,
+    .mermaid svg {
+        page-break-inside: avoid;
+        break-inside: avoid-page;
+        display: block;
+    }
+
+    /* Also avoid breaking right after the diagram's preceding heading,
+       and avoid orphaning a diagram at the very bottom of a page with
+       almost no room left. */
+    .mermaid {
+        break-before: auto;
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "accentColor": "#0e9be1",
+  "cssTheme": "Blue Topaz",
+  "theme": "moonstone",
+  "interfaceFontFamily": "Gentium Book Basic",
+  "textFontFamily": "Gentium Book Basic",
+  "monospaceFontFamily": "Cascadia Code",
+  "baseFontSize": 19,
+  "enabledCssSnippets": [
+    "app",
+    "nick-images"
+  ],
+  "showRibbon": false
+}
