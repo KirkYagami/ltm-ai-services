@@ -1,5 +1,3 @@
-# PROJECT_INSTRUCTIONS.md
-
 # Customer Purchase Amount Prediction — Decision Tree Regression
 
 ## Objective
