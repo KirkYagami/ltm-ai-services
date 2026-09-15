@@ -12,6 +12,8 @@ aliases:
 
 # Random Forest — From Individual Trees to a Forest
 
+
+
 > [!abstract] The central idea
 > A Random Forest trains many decision trees, introduces randomness so that they do not all learn the same rules, and combines their predictions.
 >
