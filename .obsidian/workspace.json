@@ -66,9 +66,33 @@
               "icon": "excalidraw-icon",
               "title": "Support Vector Machine.excalidraw"
             }
+          },
+          {
+            "id": "dab8e77f82d60757",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learn_ml/Naive Bayes.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Naive Bayes"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -230,13 +254,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d2cb459a57b0dc3",
+  "active": "dab8e77f82d60757",
   "lastOpenFiles": [
+    "learn_ml/KNN.md",
+    "learn_ml/Naive Bayes.md",
+    "learn_ml/Drawing 2026-09-16 00.19.59.excalidraw.md",
+    "learn_ml/Support Vector Machine.excalidraw.md",
+    "learn_ml/RF Hyperparameters.md",
     "svm_gamma_comparison.png",
     "learn_ml/svm_rbf_gamma.py",
     "Images/Pasted Image 20260915235048_449.png",
     "learn_ml/SVM Hyperparameters.md",
-    "learn_ml/Support Vector Machine.excalidraw.md",
     "Images/Pasted Image 20260915234105_342.png",
     "Images/Pasted Image 20260915234054_639.png",
     "Images/Pasted Image 20260915234047_428.png",
@@ -245,7 +273,6 @@
     "Images/Pasted Image 20260915231427_538.png",
     "Images/Pasted Image 20260915231408_829.png",
     "Images/Pasted Image 20260915230926_651.png",
-    "Images/Pasted Image 20260915225024_667.png",
     "learn_ml/RandomForest.excalidraw.md",
     "learn_ml/Support Vector Machine.md",
     "learn_ml/Random Forest - Theory.md",
