@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learn_ml/Notes/RF Hyperparameters.md",
+                "file": "learn_ml/Support Vector Machine.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RF Hyperparameters"
+              "title": "Support Vector Machine"
+            }
+          },
+          {
+            "id": "6d2cb459a57b0dc3",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "learn_ml/Support Vector Machine.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Support Vector Machine.excalidraw"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 545.8200073242188
+    "width": 545.8200073242188,
+    "collapsed": true
   },
   "right": {
     "id": "a3675b94c573030d",
@@ -217,26 +230,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b0eb67515a40a6f",
+  "active": "6d2cb459a57b0dc3",
   "lastOpenFiles": [
-    "learn_ml/RandomForest.md",
+    "svm_gamma_comparison.png",
+    "learn_ml/svm_rbf_gamma.py",
+    "Images/Pasted Image 20260915235048_449.png",
+    "learn_ml/SVM Hyperparameters.md",
+    "learn_ml/Support Vector Machine.excalidraw.md",
+    "Images/Pasted Image 20260915234105_342.png",
+    "Images/Pasted Image 20260915234054_639.png",
+    "Images/Pasted Image 20260915234047_428.png",
+    "Images/Pasted Image 20260915234036_969.png",
+    "Images/Pasted Image 20260915233836_588.png",
+    "Images/Pasted Image 20260915231427_538.png",
+    "Images/Pasted Image 20260915231408_829.png",
+    "Images/Pasted Image 20260915230926_651.png",
+    "Images/Pasted Image 20260915225024_667.png",
+    "learn_ml/RandomForest.excalidraw.md",
+    "learn_ml/Support Vector Machine.md",
+    "learn_ml/Random Forest - Theory.md",
+    "learn_ml/Random Forest - Theory.pdf",
     "learn_ml/Notes/RF Hyperparameters.md",
-    "Images/bootstrap_sampling.png",
-    "Images/Pasted Image 20260915202631_291.png",
-    "Images/Pasted Image 20260915202307_056.png",
     "Images",
     "Excalidraw/Libraries/local-library.excalidrawlib",
     "Excalidraw/Libraries",
     "Excalidraw",
-    "learn_ml/Random Forest - Theory.md",
-    "learn_ml/Random Forest - Theory.pdf",
     "learn_ml/Understanding Hyperparameters in Decision Trees.md",
     "learn_ml/Understanding Hyperparameters in Decision Trees.pdf",
     "learn_ml/Support Vector Machines - Theory.pdf",
     "week-03/day-04/session-2-q1/main.py",
     "learn_ml/Decision Trees 101 - From First Principles.pdf",
     "learn_ml/Decision Trees 101 - From First Principles.md",
-    "learn_ml/Notes/Decision Trees 101 - From First Principles.pdf",
     "learn_ml/Notes/Decision Trees 101 - From First Principles.md",
     "week-03/day-04/Notes/Decision Trees 101 - From First Principles.md",
     "week-03/day-04/session-2-q1/README.md",

@@ -12,6 +12,44 @@ aliases:
 
 # Random Forest — From Individual Trees to a Forest
 
+After fitting:
+
+```python
+model.oob_decision_function_
+```
+
+gives the OOB-estimated class probabilities for each training observation.
+
+For binary classification, you might see:
+
+```
+                    Class 0    Class 1
+
+Observation 1        0.10       0.90
+Observation 2        0.76       0.24
+Observation 3        0.35       0.65
+Observation 4        0.91       0.09
+...
+```
+
+These probabilities are calculated using **only trees for which that observation was OOB**.
+
+For example:
+
+```
+Observation #1
+
+Tree 4  (OOB) → [0.2, 0.8]
+Tree 8  (OOB) → [0.1, 0.9]
+Tree 13 (OOB) → [0.0, 1.0]
+...
+                     ↓
+              Combine probabilities
+                     ↓
+                 [0.10, 0.90]
+```
+
+This is useful if you want more than just the overall `oob_score_`.
 
 
 > [!abstract] The central idea
