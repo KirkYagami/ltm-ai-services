@@ -32,39 +32,15 @@
             }
           },
           {
-            "id": "3b0eb67515a40a6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learn_ml/Support Vector Machine.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Support Vector Machine"
-            }
-          },
-          {
             "id": "6d2cb459a57b0dc3",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "learn_ml/Support Vector Machine.excalidraw.md"
+                "file": "learn_ml/Naive Bayes.excalidraw.md"
               },
-              "icon": "lucide-ghost",
-              "title": "excalidraw"
+              "icon": "excalidraw-icon",
+              "title": "Naive Bayes.excalidraw"
             }
           },
           {
@@ -74,7 +50,7 @@
               "type": "markdown",
               "state": {
                 "file": "learn_ml/Naive Bayes.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -116,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,7 +171,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learn_ml/Metrics.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,23 +258,23 @@
     "type": "floating",
     "children": [
       {
-        "id": "3397d7883661f38b",
+        "id": "1815827a57feebd4",
         "type": "window",
         "children": [
           {
-            "id": "51fa2ab35b031cc1",
+            "id": "b86eb94d2ea20709",
             "type": "tabs",
             "children": [
               {
-                "id": "7958bd1454a099d1",
+                "id": "63fb2f4f92e7ee61",
                 "type": "leaf",
                 "state": {
                   "type": "excalidraw",
                   "state": {
-                    "file": "learn_ml/Drawing 2026-09-16 09.16.55.excalidraw.md"
+                    "file": "learn_ml/class run.excalidraw.md"
                   },
                   "icon": "excalidraw-icon",
-                  "title": "Drawing 2026-09-16 09.16.55.excalidraw"
+                  "title": "class run.excalidraw"
                 }
               }
             ]
@@ -311,35 +286,77 @@
         "width": 1024,
         "height": 800,
         "maximize": true,
-        "zoom": 0
+        "zoom": 1.5
+      },
+      {
+        "id": "aaf9672a919a3994",
+        "type": "window",
+        "children": [
+          {
+            "id": "de7ddcb0fbb7ccaa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80ed79ba23f5a31a",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "learn_ml/class run.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "class run.excalidraw"
+                }
+              },
+              {
+                "id": "15fb34a468515758",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 448,
+        "y": 76,
+        "width": 1024,
+        "height": 800,
+        "maximize": true,
+        "zoom": 1
       }
     ]
   },
-  "active": "8a2187dcf1c4c967",
+  "active": "15fb34a468515758",
   "lastOpenFiles": [
+    "learn_ml/class run.excalidraw.md",
+    "learn_ml/Naive Bayes.md",
+    "learn_ml/Naive Bayes.excalidraw.md",
+    "Images/Pasted Image 20260916160310_506.png",
+    "Images/Pasted Image 20260916160159_427.png",
+    "Images/Pasted Image 20260916155928_560.png",
+    "Images/Pasted Image 20260916155729_188.png",
+    "Images/Pasted Image 20260916155625_972.png",
+    "learn_ml/Decision Trees 101 - From First Principles.pdf",
+    "learn_ml/KNN.md",
+    "learn_ml/Metrics.excalidraw.md",
+    "learn_ml/Support Vector Machine.excalidraw.md",
+    "learn_ml/Support Vector Machine.md",
     "Images/Pasted Image 20260916102406_175.png",
     "Images/Pasted Image 20260916102218_725.png",
     "Images/Pasted Image 20260916102100_919.png",
     "learn_ml/RandomForest.excalidraw.md",
-    "learn_ml/Metrics.excalidraw.md",
     "learn_ml/RandomForest.excalidraw.pdf",
     "learn_ml/RF Hyperparameters.md",
-    "learn_ml/Drawing 2026-09-16 09.16.55.excalidraw.md",
-    "learn_ml/Naive Bayes.md",
-    "learn_ml/KNN.md",
-    "learn_ml/Drawing 2026-09-16 00.19.59.excalidraw.md",
-    "learn_ml/Support Vector Machine.excalidraw.md",
     "svm_gamma_comparison.png",
     "learn_ml/svm_rbf_gamma.py",
     "Images/Pasted Image 20260915235048_449.png",
     "learn_ml/SVM Hyperparameters.md",
-    "Images/Pasted Image 20260915234105_342.png",
-    "Images/Pasted Image 20260915234054_639.png",
-    "Images/Pasted Image 20260915234047_428.png",
-    "Images/Pasted Image 20260915234036_969.png",
-    "Images/Pasted Image 20260915233836_588.png",
-    "Images/Pasted Image 20260915231427_538.png",
-    "learn_ml/Support Vector Machine.md",
     "learn_ml/Random Forest - Theory.md",
     "learn_ml/Random Forest - Theory.pdf",
     "learn_ml/Notes/RF Hyperparameters.md",
@@ -350,7 +367,6 @@
     "learn_ml/Understanding Hyperparameters in Decision Trees.md",
     "learn_ml/Understanding Hyperparameters in Decision Trees.pdf",
     "learn_ml/Support Vector Machines - Theory.pdf",
-    "week-03/day-04/session-2-q1/main.py",
     "learn_ml/Decision Trees 101 - From First Principles.md",
     "learn_ml/Notes/Decision Trees 101 - From First Principles.md",
     "week-03/day-04/Notes/Decision Trees 101 - From First Principles.md",
