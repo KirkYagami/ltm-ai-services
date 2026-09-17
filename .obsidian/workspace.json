@@ -32,24 +32,12 @@
             }
           },
           {
-            "id": "6d2cb459a57b0dc3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "learn_ml/Naive Bayes.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Naive Bayes.excalidraw"
-            }
-          },
-          {
-            "id": "dab8e77f82d60757",
+            "id": "3b0eb67515a40a6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learn_ml/Naive Bayes.md",
+                "file": "learn_ml/Support Vector Machine.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,35 +52,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Naive Bayes"
+              "title": "Support Vector Machine"
             }
           },
           {
-            "id": "2facab63be1cd9b9",
+            "id": "6d2cb459a57b0dc3",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "learn_ml/RandomForest.excalidraw.md"
+                "file": "learn_ml/Support Vector Machine.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "RandomForest.excalidraw"
+              "title": "Support Vector Machine.excalidraw"
             }
           },
           {
-            "id": "8a2187dcf1c4c967",
+            "id": "dab8e77f82d60757",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "learn_ml/Metrics.excalidraw.md"
+                "file": "learn_ml/Naive Bayes.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Metrics.excalidraw"
+              "title": "Naive Bayes.excalidraw"
+            }
+          },
+          {
+            "id": "a51a1bcbb1b455dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learn_ml/Cross-Validation and Hyperparameter Search.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cross-Validation and Hyperparameter Search"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -154,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 545.8200073242188,
-    "collapsed": true
+    "width": 545.8200073242188
   },
   "right": {
     "id": "a3675b94c573030d",
@@ -171,6 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "week-03/day-04/session-3-q1/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,110 +265,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "42ed09659cdcc83e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "1815827a57feebd4",
-        "type": "window",
-        "children": [
-          {
-            "id": "b86eb94d2ea20709",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "63fb2f4f92e7ee61",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "learn_ml/class run.excalidraw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "class run.excalidraw"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 76,
-        "width": 1024,
-        "height": 800,
-        "maximize": true,
-        "zoom": 1.5
-      },
-      {
-        "id": "aaf9672a919a3994",
-        "type": "window",
-        "children": [
-          {
-            "id": "de7ddcb0fbb7ccaa",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "80ed79ba23f5a31a",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "learn_ml/class run.excalidraw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "class run.excalidraw"
-                }
-              },
-              {
-                "id": "15fb34a468515758",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 76,
-        "width": 1024,
-        "height": 800,
-        "maximize": true,
-        "zoom": 1
-      }
-    ]
-  },
-  "active": "15fb34a468515758",
+  "active": "a51a1bcbb1b455dc",
   "lastOpenFiles": [
-    "learn_ml/class run.excalidraw.md",
-    "learn_ml/Naive Bayes.md",
-    "learn_ml/Naive Bayes.excalidraw.md",
-    "Images/Pasted Image 20260916160310_506.png",
-    "Images/Pasted Image 20260916160159_427.png",
-    "Images/Pasted Image 20260916155928_560.png",
-    "Images/Pasted Image 20260916155729_188.png",
-    "Images/Pasted Image 20260916155625_972.png",
-    "learn_ml/Decision Trees 101 - From First Principles.pdf",
-    "learn_ml/KNN.md",
-    "learn_ml/Metrics.excalidraw.md",
-    "learn_ml/Support Vector Machine.excalidraw.md",
-    "learn_ml/Support Vector Machine.md",
-    "Images/Pasted Image 20260916102406_175.png",
-    "Images/Pasted Image 20260916102218_725.png",
-    "Images/Pasted Image 20260916102100_919.png",
-    "learn_ml/RandomForest.excalidraw.md",
-    "learn_ml/RandomForest.excalidraw.pdf",
-    "learn_ml/RF Hyperparameters.md",
-    "svm_gamma_comparison.png",
-    "learn_ml/svm_rbf_gamma.py",
-    "Images/Pasted Image 20260915235048_449.png",
+    "learn_ml/Support Vector Machines - Theory.pdf",
     "learn_ml/SVM Hyperparameters.md",
+    "learn_ml/Logistic Regression.excalidraw.md",
+    "learn_ml/Cross-Validation and Hyperparameter Search.md",
+    "week-03/day-04/session-1-q3/main.py",
+    "learn_ml/K-means Clustering.md",
+    "learn_ml/K Means.excalidraw.md",
+    "Images/Pasted Image 20260917012257_586.png",
+    "Images/Pasted Image 20260917011944_957.png",
+    "Images/Pasted Image 20260917011316_596.png",
+    "learn_ml/Naive Bayes.excalidraw.md",
+    "Images/Pasted Image 20260917001501_179.png",
+    "Images/Pasted Image 20260917001145_833.png",
+    "Images/Pasted Image 20260917001106_211.png",
+    "Images/Pasted Image 20260917001041_163.png",
+    "Images/Pasted Image 20260917000839_901.png",
+    "Images/Pasted Image 20260917000120_586.png",
+    "Images/Pasted Image 20260916235807_247.png",
+    "learn_ml/RandomForest.excalidraw.md",
+    "learn_ml/class run.excalidraw.md",
+    "learn_ml/Metrics.excalidraw.md",
+    "learn_ml/Drawing 2026-09-16 00.19.59.excalidraw.md",
+    "learn_ml/Decision Trees 101 - From First Principles.pdf",
+    "learn_ml/Drawing 2026-09-16 09.16.55.excalidraw.md",
+    "learn_ml/Naive Bayes.md",
+    "learn_ml/RandomForest.excalidraw.pdf",
+    "learn_ml/KNN.md",
+    "learn_ml/Support Vector Machine.excalidraw.md",
+    "learn_ml/RF Hyperparameters.md",
+    "learn_ml/svm_rbf_gamma.py",
+    "learn_ml/Support Vector Machine.md",
     "learn_ml/Random Forest - Theory.md",
     "learn_ml/Random Forest - Theory.pdf",
     "learn_ml/Notes/RF Hyperparameters.md",
@@ -366,13 +307,11 @@
     "Excalidraw",
     "learn_ml/Understanding Hyperparameters in Decision Trees.md",
     "learn_ml/Understanding Hyperparameters in Decision Trees.pdf",
-    "learn_ml/Support Vector Machines - Theory.pdf",
     "learn_ml/Decision Trees 101 - From First Principles.md",
     "learn_ml/Notes/Decision Trees 101 - From First Principles.md",
     "week-03/day-04/Notes/Decision Trees 101 - From First Principles.md",
     "week-03/day-04/session-2-q1/README.md",
     "week-03/day-04/session-3-q1/README.md",
-    "README.md",
-    "learn_fast_api/README.md"
+    "README.md"
   ]
 }
