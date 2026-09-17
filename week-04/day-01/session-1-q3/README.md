@@ -1,0 +1,6 @@
+# Session 1 - Question 3
+
+**Week:** 04  
+**Day:** 01
+
+TODO: Add problem description and solution notes.
