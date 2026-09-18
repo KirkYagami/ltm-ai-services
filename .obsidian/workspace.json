@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learn_ml/Cross-Validation and Hyperparameter Search.md",
+                "file": "learn/_ml/Feature Engineering/01 - Feature Engineering - From First Principles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cross-Validation and Hyperparameter Search"
+              "title": "01 - Feature Engineering - From First Principles"
             }
           }
         ],
@@ -267,10 +267,11 @@
   },
   "active": "a51a1bcbb1b455dc",
   "lastOpenFiles": [
+    "learn/_ml/Feature Engineering/00 - Feature Engineering.md",
+    "learn_ml/Cross-Validation and Hyperparameter Search.md",
     "learn_ml/Support Vector Machines - Theory.pdf",
     "learn_ml/SVM Hyperparameters.md",
     "learn_ml/Logistic Regression.excalidraw.md",
-    "learn_ml/Cross-Validation and Hyperparameter Search.md",
     "week-03/day-04/session-1-q3/main.py",
     "learn_ml/K-means Clustering.md",
     "learn_ml/K Means.excalidraw.md",
@@ -306,7 +307,6 @@
     "Excalidraw/Libraries",
     "Excalidraw",
     "learn_ml/Understanding Hyperparameters in Decision Trees.md",
-    "learn_ml/Understanding Hyperparameters in Decision Trees.pdf",
     "learn_ml/Decision Trees 101 - From First Principles.md",
     "learn_ml/Notes/Decision Trees 101 - From First Principles.md",
     "week-03/day-04/Notes/Decision Trees 101 - From First Principles.md",
