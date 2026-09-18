@@ -1,0 +1,37 @@
+Python 3.14.7; NumPy 2.5.3; pandas 3.0.5; scikit-learn 1.9.0
+Toy sample covariance:
+[[3. 2.]
+ [2. 3.]]
+Toy first-component variance ratio: 0.833333
+Toy reconstruction SSE: 3.000000
+
+Development rows: 640; held-out rows: 160
+Raw PCA variance ratios: [9.998154e-01 1.844266e-04 1.341540e-07 7.429513e-10]
+Standardized PCA variance ratios: [0.635031 0.249336 0.087264 0.028369]
+Components retained for 95%: 3
+
+Component weights (signs may be reversed without changing PCA):
+               PC1       PC2       PC3       PC4
+area      0.602480  0.035544 -0.139394  0.785063
+rooms     0.573951 -0.001918 -0.608171 -0.548365
+rent      0.552446  0.051744  0.780610 -0.287703
+distance -0.048996  0.998026 -0.036676 -0.014097
+
+Standardized reconstruction:
+ k  variance_retained  MSE_per_entry
+ 1           0.635031       0.364969
+ 2           0.884367       0.115633
+ 3           0.971631       0.028369
+ 4           1.000000       0.000000
+
+Repeated CV ROC AUC:
+           auc_mean   auc_sd
+model                       
+no_pca     0.833800 0.020743
+pca_1      0.545877 0.032252
+pca_2      0.678179 0.042831
+pca_3      0.793613 0.027906
+pca_4      0.833800 0.020743
+pca_95pct  0.793613 0.027906
+Selected pipeline: no_pca
+Held-out ROC AUC: 0.805154

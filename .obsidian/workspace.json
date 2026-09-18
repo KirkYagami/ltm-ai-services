@@ -265,8 +265,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a51a1bcbb1b455dc",
+  "active": "39e1055e6cd0e6f5",
   "lastOpenFiles": [
+    "learn/_ml/Feature Engineering/02 - Principal Component Analysis - From First Principles.md",
+    "learn/_ml/Feature Engineering/examples/pca_geometry_and_variance.png",
+    "learn/_ml/Feature Engineering/examples/pca_results.txt",
+    "learn/_ml/Feature Engineering/examples/pca_demo.py",
     "learn/_ml/Feature Engineering/00 - Feature Engineering.md",
     "learn_ml/Cross-Validation and Hyperparameter Search.md",
     "learn_ml/Support Vector Machines - Theory.pdf",
@@ -285,7 +289,6 @@
     "Images/Pasted Image 20260917001041_163.png",
     "Images/Pasted Image 20260917000839_901.png",
     "Images/Pasted Image 20260917000120_586.png",
-    "Images/Pasted Image 20260916235807_247.png",
     "learn_ml/RandomForest.excalidraw.md",
     "learn_ml/class run.excalidraw.md",
     "learn_ml/Metrics.excalidraw.md",
@@ -304,14 +307,11 @@
     "learn_ml/Notes/RF Hyperparameters.md",
     "Images",
     "Excalidraw/Libraries/local-library.excalidrawlib",
-    "Excalidraw/Libraries",
-    "Excalidraw",
     "learn_ml/Understanding Hyperparameters in Decision Trees.md",
     "learn_ml/Decision Trees 101 - From First Principles.md",
     "learn_ml/Notes/Decision Trees 101 - From First Principles.md",
     "week-03/day-04/Notes/Decision Trees 101 - From First Principles.md",
     "week-03/day-04/session-2-q1/README.md",
-    "week-03/day-04/session-3-q1/README.md",
-    "README.md"
+    "week-03/day-04/session-3-q1/README.md"
   ]
 }
