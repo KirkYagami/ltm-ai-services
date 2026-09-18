@@ -32,60 +32,24 @@
             }
           },
           {
-            "id": "3b0eb67515a40a6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learn_ml/Support Vector Machine.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Support Vector Machine"
-            }
-          },
-          {
             "id": "6d2cb459a57b0dc3",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "learn_ml/Support Vector Machine.excalidraw.md"
+                "file": "learn_ml/Logistic Regression.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Support Vector Machine.excalidraw"
+              "title": "Logistic Regression.excalidraw"
             }
           },
           {
             "id": "dab8e77f82d60757",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "learn_ml/Naive Bayes.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Naive Bayes.excalidraw"
-            }
-          },
-          {
-            "id": "a51a1bcbb1b455dc",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "learn/_ml/Feature Engineering/01 - Feature Engineering - From First Principles.md",
+                "file": "learn_ml/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +64,47 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01 - Feature Engineering - From First Principles"
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "7de855dd7c2c4b47",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "learn_ml/Feature Engineering.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Feature Engineering.excalidraw"
+            }
+          },
+          {
+            "id": "2facab63be1cd9b9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "learn_ml/RandomForest.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "RandomForest.excalidraw"
+            }
+          },
+          {
+            "id": "8a2187dcf1c4c967",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "learn_ml/Metrics.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Metrics.excalidraw"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 545.8200073242188
+    "width": 481.6515808105469,
+    "collapsed": true
   },
   "right": {
     "id": "a3675b94c573030d",
@@ -182,7 +183,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-03/day-04/session-3-q1/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,53 +265,90 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "39e1055e6cd0e6f5",
+  "floating": {
+    "id": "3de87a28cfe175a0",
+    "type": "floating",
+    "children": [
+      {
+        "id": "75b9ff4f699b4bc7",
+        "type": "window",
+        "children": [
+          {
+            "id": "9576cb5eeeee41fb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2e9ad50e12b70aae",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "learn_ml/class run.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "class run.excalidraw"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 198,
+        "y": 167,
+        "width": 1719,
+        "height": 1050,
+        "maximize": true,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "7de855dd7c2c4b47",
   "lastOpenFiles": [
-    "learn/_ml/Feature Engineering/02 - Principal Component Analysis - From First Principles.md",
-    "learn/_ml/Feature Engineering/examples/pca_geometry_and_variance.png",
-    "learn/_ml/Feature Engineering/examples/pca_results.txt",
-    "learn/_ml/Feature Engineering/examples/pca_demo.py",
-    "learn/_ml/Feature Engineering/00 - Feature Engineering.md",
-    "learn_ml/Cross-Validation and Hyperparameter Search.md",
-    "learn_ml/Support Vector Machines - Theory.pdf",
-    "learn_ml/SVM Hyperparameters.md",
-    "learn_ml/Logistic Regression.excalidraw.md",
-    "week-03/day-04/session-1-q3/main.py",
-    "learn_ml/K-means Clustering.md",
-    "learn_ml/K Means.excalidraw.md",
-    "Images/Pasted Image 20260917012257_586.png",
-    "Images/Pasted Image 20260917011944_957.png",
-    "Images/Pasted Image 20260917011316_596.png",
-    "learn_ml/Naive Bayes.excalidraw.md",
-    "Images/Pasted Image 20260917001501_179.png",
-    "Images/Pasted Image 20260917001145_833.png",
-    "Images/Pasted Image 20260917001106_211.png",
-    "Images/Pasted Image 20260917001041_163.png",
-    "Images/Pasted Image 20260917000839_901.png",
-    "Images/Pasted Image 20260917000120_586.png",
+    "Images/Pasted Image 20260918124303_207.png",
+    "Images/Pasted Image 20260918124108_966.png",
+    "Images/Pasted Image 20260918121548_757.png",
+    "Images/Pasted Image 20260918121324_426.png",
+    "Images/Pasted Image 20260918121249_681.png",
+    "learn/_ml/Feature Engineering/01 - Feature Engineering - From First Principles.md",
     "learn_ml/RandomForest.excalidraw.md",
-    "learn_ml/class run.excalidraw.md",
     "learn_ml/Metrics.excalidraw.md",
-    "learn_ml/Drawing 2026-09-16 00.19.59.excalidraw.md",
-    "learn_ml/Decision Trees 101 - From First Principles.pdf",
-    "learn_ml/Drawing 2026-09-16 09.16.55.excalidraw.md",
-    "learn_ml/Naive Bayes.md",
-    "learn_ml/RandomForest.excalidraw.pdf",
+    "learn_ml/class run.excalidraw.md",
+    "learn_ml/Feature Engineering.excalidraw.md",
+    "Images/Pasted Image 20260918104421_059.png",
+    "Images/Pasted Image 20260918104342_601.png",
+    "Images/Pasted Image 20260918104159_537.png",
+    "Images/Pasted Image 20260918104054_558.png",
+    "Images/Pasted Image 20260918104026_974.png",
+    "Images/Pasted Image 20260918103746_542.png",
+    "learn_ml/Untitled.md",
+    "learn_ml/Bias Variance Tradeoff.excalidraw.md",
     "learn_ml/KNN.md",
-    "learn_ml/Support Vector Machine.excalidraw.md",
-    "learn_ml/RF Hyperparameters.md",
-    "learn_ml/svm_rbf_gamma.py",
-    "learn_ml/Support Vector Machine.md",
-    "learn_ml/Random Forest - Theory.md",
-    "learn_ml/Random Forest - Theory.pdf",
-    "learn_ml/Notes/RF Hyperparameters.md",
-    "Images",
-    "Excalidraw/Libraries/local-library.excalidrawlib",
-    "learn_ml/Understanding Hyperparameters in Decision Trees.md",
-    "learn_ml/Decision Trees 101 - From First Principles.md",
-    "learn_ml/Notes/Decision Trees 101 - From First Principles.md",
-    "week-03/day-04/Notes/Decision Trees 101 - From First Principles.md",
-    "week-03/day-04/session-2-q1/README.md",
-    "week-03/day-04/session-3-q1/README.md"
+    "learn_ml/Logistic Regression.excalidraw.md",
+    "week-07/day-05/session-3-q3/main.py",
+    "week-07/day-05/session-3-q3/README.md",
+    "week-07/day-05/session-3-q3/PROJECT_INSTRUCTIONS.md",
+    "week-07/day-05/session-3-q1/main.py",
+    "week-07/day-05/session-3-q1/README.md",
+    "week-07/day-05/session-3-q1/PROJECT_INSTRUCTIONS.md",
+    "week-07/day-05/session-3-q2/main.py",
+    "week-07/day-05/session-3-q2/README.md",
+    "week-07/day-05/session-3-q2/PROJECT_INSTRUCTIONS.md",
+    "week-07/day-05/session-2-q3/main.py",
+    "week-07/day-05/session-2-q3/README.md",
+    "week-07/day-05/session-2-q3/PROJECT_INSTRUCTIONS.md",
+    "week-07/day-05/session-2-q2/main.py",
+    "week-07/day-05/session-2-q2/README.md",
+    "week-07/day-05/session-2-q2/PROJECT_INSTRUCTIONS.md",
+    "week-07/day-05/session-2-q1/main.py",
+    "week-07/day-05/session-2-q1/README.md",
+    "week-07/day-05/session-2-q1/PROJECT_INSTRUCTIONS.md",
+    "week-07/day-05/session-1-q3/main.py",
+    "week-07/day-05/session-1-q3/README.md",
+    "week-07/day-05/session-1-q3/PROJECT_INSTRUCTIONS.md",
+    "week-07/day-05/session-1-q2/main.py",
+    "week-07/day-05/session-1-q2/README.md",
+    "week-07/day-05/session-1-q2/PROJECT_INSTRUCTIONS.md",
+    "week-07/day-05/session-1-q1/main.py",
+    "week-07/day-04/session-3-q3/main.py"
   ]
 }

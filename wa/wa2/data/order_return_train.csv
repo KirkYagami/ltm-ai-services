@@ -1,0 +1,31 @@
+order_id,order_date,center_code,destination_city,carrier_partner,package_weight_kg,item_price,center_load_percent,carrier_rating,prior_return_count,shipping_method,is_gift_order,is_returned
+ORD-2026-100023,2026-08-23,FC-DEL-03,Pune,Metro Parcel Services,0.53,775.11,91.5,3.4,2,Standard,YES,1
+ORD-2026-100024,2026-08-10,FC-MUM-04,Lucknow,SwiftRail Cargo,0.72,896.89,49.1,4.3,0,Standard,yes ,0
+ORD-2026-100016,2026-07-17,FC-MUM-04,Kanpur,Coastal Express,2.76,1049.03,85.6,3.1,3,express,YES,0
+ORD-2026-100012,2026-08-06,FC-MUM-04,Chennai,NorthStar Logistics,1.01,1569.38,52.7,4.2,1,express,no,0
+ORD-2026-100021,2026-07-04,FC-PNQ-02,Pune,SwiftRail Cargo,3.15,,68.3,4.8,2,standard ,yes ,1
+ORD-2026-100017,2026-06-12,FC-DEL-03,Chennai,Coastal Express,1.56,2019.31,84.5,4.9,0,express, no,1
+ORD-2026-100010,2026-07-18,FC-BLR-01,Kanpur,Metro Parcel Services,3.54,3414.14,45.9,3.7,1,EXPRESS,No,1
+ORD-2026-100015,2026-08-10,FC-BLR-01,Chennai,NorthStar Logistics,3.07,879.25,60.4,3.2,2, express,Yes,0
+ORD-2026-100002,2026-07-29,FC-MUM-04,Chennai,SwiftRail Cargo,0.64,1073.65,47.7,3.1,0,standard ,No,1
+ORD-2026-100007,2026-08-02,FC-BLR-01,Pune,SwiftRail Cargo,2.27,908.48,76.3,4.1,3,Standard,YES,0
+ORD-2026-100022,2026-06-17,FC-MUM-04,Nagpur,Metro Parcel Services,1.5,284.05,54.1,3.2,1,priority,Yes,1
+ORD-2026-100014,2026-08-04,FC-DEL-03,Nagpur,Coastal Express,1.49,3182.0,70.5,4.0,0,STANDARD,Yes,0
+ORD-2026-100006,2026-06-08,FC-BLR-01,Indore,NorthStar Logistics,0.53,1791.47,55.5,3.8,0,standard ,no,0
+ORD-2026-100011,2026-08-27,FC-MUM-04,Ahmedabad,SwiftRail Cargo,0.75,662.47,90.4,4.6,1,priority, no,0
+ORD-2026-100013,2026-08-08,FC-PNQ-02,Kanpur,Coastal Express,,2266.34,42.1,4.8,2,Standard,yes,1
+ORD-2026-100000,2026-06-09,FC-DEL-03,Ahmedabad,NorthStar Logistics,3.18,1754.11,85.4,3.6,2,STANDARD,NO,1
+ORD-2026-100019,2026-07-11,FC-BLR-01,Nagpur,Coastal Express,1.44,1663.59,92.4,3.8,2,Standard, no,0
+ORD-2026-100017,2026-06-12,FC-DEL-03,Chennai,Coastal Express,1.56,2019.31,84.5,4.9,0,express, no,1
+ORD-2026-100003,2026-07-10,FC-DEL-03,Nagpur,Metro Parcel Services,1.44,708.73,70.5,4.0,0,PRIORITY,yes,0
+ORD-2026-100021,2026-07-04,FC-PNQ-02,Pune,SwiftRail Cargo,3.15,,68.3,4.8,2,standard ,yes ,1
+ORD-2026-100020,2026-07-16,FC-MUM-04,Ahmedabad,NorthStar Logistics,,4140.68,56.0,3.7,1,standard ,NO,1
+ORD-2026-100005,2026-08-17,FC-PNQ-02,Hyderabad,Coastal Express,1.06,,77.0,4.0,2,PRIORITY,Yes,0
+ORD-2026-100004,2026-07-09,FC-PNQ-02,Nagpur,Metro Parcel Services,1.67,,46.0,4.8,1, express,no,0
+ORD-2026-100018,2026-08-15,FC-PNQ-02,Hyderabad,NorthStar Logistics,,469.8,57.4,4.9,0,standard ,yes,1
+ORD-2026-100013,2026-08-08,FC-PNQ-02,Kanpur,Coastal Express,,2266.34,42.1,4.8,2,Standard,yes,1
+ORD-2026-100009,2026-06-09,FC-MUM-04,Lucknow,Metro Parcel Services,1.58,1581.92,82.3,4.0,2,standard,No,1
+ORD-2026-100008,2026-06-19,FC-DEL-03,Ahmedabad,Coastal Express,3.24,1428.52,80.0,4.7,0, express,no,1
+ORD-2026-100014,2026-08-04,FC-DEL-03,Nagpur,Coastal Express,1.49,3182.0,70.5,4.0,0,STANDARD,Yes,0
+ORD-2026-100003,2026-07-10,FC-DEL-03,Nagpur,Metro Parcel Services,1.44,708.73,70.5,4.0,0,PRIORITY,yes,0
+ORD-2026-100001,2026-08-09,FC-PNQ-02,Pune,NorthStar Logistics,2.48,1057.53,89.3,3.2,0,STANDARD,Yes,1

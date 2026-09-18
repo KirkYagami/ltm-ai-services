@@ -1,0 +1,16 @@
+order_id,order_date,center_code,destination_city,carrier_partner,package_weight_kg,item_price,center_load_percent,carrier_rating,prior_return_count,shipping_method,is_gift_order
+ORD-2026-130003,2026-07-20,FC-BLR-01,Chennai,SwiftRail Cargo,5.31,3648.61,83.2,4.7,2,Standard,YES
+ORD-2026-130004,2026-08-11,FC-MUM-04,Lucknow,NorthStar Logistics,1.09,1147.2,85.9,4.4,1,PRIORITY,NO
+ORD-2026-130006,2026-08-17,FC-BLR-01,Nagpur,NorthStar Logistics,1.02,805.96,53.3,3.4,0,priority,Yes
+ORD-2026-130007,2026-07-01,FC-MUM-04,Kanpur,NorthStar Logistics,3.57,1347.37,57.4,3.7,1,Express,yes 
+ORD-2026-130002,2026-07-28,FC-BLR-01,Ahmedabad,SwiftRail Cargo,2.09,2012.12,92.7,4.0,1,standard ,NO
+ORD-2026-130011,2026-07-06,FC-DEL-03,Pune,SwiftRail Cargo,1.55,1763.17,67.9,4.7,0,standard , no
+ORD-2026-130009,2026-06-29,FC-MUM-04,Ahmedabad,NorthStar Logistics,1.17,964.08,70.5,4.3,1,standard,No
+ORD-2026-130005,2026-06-22,FC-PNQ-02,Bhopal,NorthStar Logistics,2.86,1598.6,41.7,3.2,0,Standard, no
+ORD-2026-130009,2026-06-29,FC-MUM-04,Ahmedabad,NorthStar Logistics,1.17,964.08,70.5,4.3,1,standard,No
+ORD-2026-130005,2026-06-22,FC-PNQ-02,Bhopal,NorthStar Logistics,2.86,1598.6,41.7,3.2,0,Standard, no
+ORD-2026-130004,2026-08-11,FC-MUM-04,Lucknow,NorthStar Logistics,1.09,1147.2,85.9,4.4,1,PRIORITY,NO
+ORD-2026-130010,2026-07-03,FC-DEL-03,Pune,Metro Parcel Services,1.59,,77.3,2.6,0,Standard,No
+ORD-2026-130001,2026-08-10,FC-MUM-04,Pune,Coastal Express,1.24,1406.21,56.8,3.7,1,Priority,YES
+ORD-2026-130000,2026-06-06,FC-PNQ-02,Kanpur,SwiftRail Cargo,,581.28,81.7,4.0,2,priority,yes
+ORD-2026-130008,2026-08-27,FC-DEL-03,Jaipur,NorthStar Logistics,3.89,2021.14,88.4,3.7,2,Standard,no
