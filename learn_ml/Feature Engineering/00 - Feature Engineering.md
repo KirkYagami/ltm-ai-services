@@ -17,6 +17,6 @@ This section studies how to turn available data into useful model inputs, evalua
 | 1 | [[01 - Feature Engineering - From First Principles]] | Complete: foundations, preprocessing, scaling, construction, correlation, selection, and a runnable experiment |
 | 2 | [[02 - Principal Component Analysis - From First Principles]] | Complete: geometry, derivation, projection, reconstruction, scaling, explained variance, and a runnable experiment |
 
-The first lecture's supporting files are [listings.csv](examples/listings.csv), [listings_demo.py](examples/listings_demo.py), and [verified results](examples/results.txt).
+The first lecture's supporting files are [listings.csv](examples/listings.csv), [listings_demo.py](examples/listings_demo.py), [verified results](examples/results.txt), and [feature_engineering_figures.py](examples/feature_engineering_figures.py), which redraws its figures.
 
 The PCA lecture includes [pca_demo.py](examples/pca_demo.py), [experiment results](examples/pca_results.txt), and a [projection and variance figure](examples/pca_geometry_and_variance.png).

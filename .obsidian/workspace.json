@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "6d2cb459a57b0dc3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "learn_ml/Logistic Regression.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Logistic Regression.excalidraw"
-            }
-          },
-          {
             "id": "dab8e77f82d60757",
             "type": "leaf",
             "state": {
@@ -68,48 +56,12 @@
             }
           },
           {
-            "id": "7de855dd7c2c4b47",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "learn_ml/Feature Engineering.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Feature Engineering.excalidraw"
-            }
-          },
-          {
-            "id": "2facab63be1cd9b9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "learn_ml/RandomForest.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "RandomForest.excalidraw"
-            }
-          },
-          {
-            "id": "8a2187dcf1c4c967",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "learn_ml/Metrics.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Metrics.excalidraw"
-            }
-          },
-          {
             "id": "39c25ba2bcdb2595",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview-prep/Machine Learning Interview Questions.md",
+                "file": "interview-prep/Gen AI Curriculum & Systems Engineer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Machine Learning Interview Questions"
+              "title": "Gen AI Curriculum & Systems Engineer"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -288,47 +240,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "3de87a28cfe175a0",
-    "type": "floating",
-    "children": [
-      {
-        "id": "75b9ff4f699b4bc7",
-        "type": "window",
-        "children": [
-          {
-            "id": "9576cb5eeeee41fb",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2e9ad50e12b70aae",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "learn_ml/class run.excalidraw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "class run.excalidraw"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 198,
-        "y": 167,
-        "width": 1719,
-        "height": 1050,
-        "maximize": true,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "39e1055e6cd0e6f5",
+  "active": "39c25ba2bcdb2595",
   "lastOpenFiles": [
-    "interview-prep/Machine Learning Interview Questions.pdf",
+    "Gen AI Curriculum & Systems Engineer.pdf",
+    "learn_ml/Feature Engineering/01 - Feature Engineering - From First Principles.md",
+    "interview-prep/Gen AI Curriculum & Systems Engineer.md",
+    "learn_ml/Feature Engineering/00 - Feature Engineering.md",
     "interview-prep/Machine Learning Interview Questions.md",
+    "interview-prep/Machine Learning Interview Questions.pdf",
     "interview-prep",
     "learn_ml/Feature Engineering.excalidraw.md",
     "Images/Pasted Image 20260918124303_207.png",
@@ -368,10 +287,6 @@
     "week-07/day-05/session-2-q1/README.md",
     "week-07/day-05/session-2-q1/PROJECT_INSTRUCTIONS.md",
     "week-07/day-05/session-1-q3/main.py",
-    "week-07/day-05/session-1-q3/README.md",
-    "week-07/day-05/session-1-q3/PROJECT_INSTRUCTIONS.md",
-    "week-07/day-05/session-1-q2/main.py",
-    "week-07/day-05/session-1-q2/README.md",
-    "week-07/day-05/session-1-q1/main.py"
+    "week-07/day-05/session-1-q2/main.py"
   ]
 }
